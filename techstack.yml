@@ -2,7 +2,7 @@ repo_name: Tisha211/cloudflare-docs
 report_id: a7e5027a698817b58276afdc8d892579
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-10T19:23:47+00:00'
+timestamp: '2024-02-29T19:25:21+00:00'
 requested_by: pdwittig
 provider: github
 branch: production
@@ -166,7 +166,7 @@ tools:
   last_updated_by: Kevin Wynn
   last_updated_on: 2021-09-29 14:19:51.000000000 Z
 - name: Prettier
-  description: 'Prettier is an opinionated code formatter. '
+  description: Prettier is an opinionated code formatter.
   website_url: https://prettier.io/
   version: 2.5.1
   license: MIT
@@ -316,6 +316,13 @@ tools:
   last_updated_by: Somhairle MacLeòid
   last_updated_on: 2023-02-21 18:29:13.000000000 Z
   vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 4.5.2
   - name: Vite Server Options (server.fs.deny) can be bypassed using double forward-slash
       (//)
     cve_id: CVE-2023-34092
